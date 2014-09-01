@@ -1,9 +1,7 @@
 #KBRoundedButton
 allows you to create beautiful rounded rect button with dynamic colors and activity indicator, completly in Interface Builder.
 
-<!--
 ![Animation](https://raw.githubusercontent.com/burczyk/KBRoundedButton/master/assets/animation.gif)
--->
 
 Button's corners alre always rounded to half of it's height.
 
