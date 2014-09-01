@@ -17,7 +17,7 @@ pod 'KBRoundedButton'
 ##Setting colors
 You can set colors for each state of the button in both code and Interface builder. Both background colors and title colors are supported. Set of colors:
 
-```
+```objective-c
 @property (nonatomic, strong) UIColor *backgroundColorForStateNormal;
 @property (nonatomic, strong) UIColor *backgroundColorForStateSelected;
 @property (nonatomic, strong) UIColor *backgroundColorForStateHighlighted;
