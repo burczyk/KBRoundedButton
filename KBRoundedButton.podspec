@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KBRoundedButton"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Create beautiful rounded rect button with dynamic colors and activity indicator completely in Interface Builder"
 
   s.description  = <<-DESC
