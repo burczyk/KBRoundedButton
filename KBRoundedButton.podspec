@@ -13,7 +13,9 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/burczyk/KBRoundedButton"
-  s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+
+  s.screenshots  = "https://raw.githubusercontent.com/burczyk/KBRoundedButton/master/assets/screenshot1.png", "https://raw.githubusercontent.com/burczyk/KBRoundedButton/master/assets/screenshot2.png", "https://raw.githubusercontent.com/burczyk/KBRoundedButton/master/assets/screenshot3.png"
+
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "Kamil Burczyk" => "kamil.burczyk@gmail.com" }
@@ -21,8 +23,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
 
-  s.source       = { :git => "https://github.com/burczyk/KBRoundedButton.git", :commit => "f0270c065e53705aeca62210117301bab29c41c1" }
-  s.source_files  = "KBRoundedButton", "KBRoundedButton/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/burczyk/KBRoundedButton.git", :commit => "11db90c39db78c0a65b117adb6829208dbd7ce81" }
+  s.source_files  = "KBRoundedButtonExample", "KBRoundedButton/**/*.{h,m}"
 
   s.frameworks = "UIKit", "CoreGraphics"
 
