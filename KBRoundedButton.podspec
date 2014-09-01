@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/burczyk/KBRoundedButton"
 
-  s.screenshots  = "https://raw.githubusercontent.com/burczyk/KBRoundedButton/master/assets/screenshot1.png", "https://raw.githubusercontent.com/burczyk/KBRoundedButton/master/assets/screenshot2.png", "https://raw.githubusercontent.com/burczyk/KBRoundedButton/master/assets/screenshot3.png"
+  s.screenshots  = "https://raw.githubusercontent.com/burczyk/KBRoundedButton/master/assets/animation.gif", "https://raw.githubusercontent.com/burczyk/KBRoundedButton/master/assets/screenshot1.png", "https://raw.githubusercontent.com/burczyk/KBRoundedButton/master/assets/screenshot2.png", "https://raw.githubusercontent.com/burczyk/KBRoundedButton/master/assets/screenshot3.png"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
