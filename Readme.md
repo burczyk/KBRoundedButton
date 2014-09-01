@@ -38,10 +38,22 @@ Setting them in IB is very easy: all you have to do is to set a class of your bu
 Colors are set by creating an `UIImage` of 1x1 size in given color and placing it as a `backgroundImage` of button.
 
 ##Setting shadow
-`KBRoundedButton` has a property `@property (nonatomic, assign) BOOL shadowEnabled;` which can be also set in IB and enables bottom shadow for a button. Due to the fact that internal implementation uses `CALayer`'s `cornerRadius` property altogether with `clipsToBounds` it was unable to use native shadow. Method `- (void)addBottomShadow` creates a separate view with size of the button and places it below the button in view hierarchy.
+`KBRoundedButton` has a property 
+```objective-c
+@property (nonatomic, assign) BOOL shadowEnabled;
+``` 
+which can be also set in IB and enables bottom shadow for a button. Due to the fact that internal implementation uses `CALayer`'s `cornerRadius` property altogether with `clipsToBounds` it was unable to use native shadow. Method 
+```objective-c
+- (void)addBottomShadow
+``` 
+creates a separate view with size of the button and places it below the button in view hierarchy.
 
 ##Activity Indicator
-`KBRoundedButton`'s last property `@property (nonatomic, assign) BOOL working;` displays activity indicator when set to `YES` and restores original title when set to `NO`. See `Log in` button for a realtime example.
+`KBRoundedButton`'s last property 
+```objective-c
+@property (nonatomic, assign) BOOL working;
+``` 
+displays activity indicator when set to `YES` and restores original title when set to `NO`. See `Log in` button for a realtime example.
 
 ##License
 `KBRoundedButton ` is under `MIT license`. See `LICENSE` file for more info.
