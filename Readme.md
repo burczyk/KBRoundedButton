@@ -5,6 +5,15 @@ allows you to create beautiful rounded rect button with dynamic colors and activ
 
 Button's corners alre always rounded to half of it's height.
 
+##Installation
+`KBRoundedButton` is available via `CocoaPods`.
+To use it in your app simply add:
+
+```
+pod 'KBRoundedButton'
+```
+
+
 ##Setting colors
 You can set colors for each state of the button in both code and Interface builder. Both background colors and title colors are supported. Set of colors:
 
