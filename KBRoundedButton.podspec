@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
 
-  s.source       = { :git => "https://github.com/burczyk/KBRoundedButton.git", :tag => "1.0.0" }
-  s.source_files  = "KBRoundedButtonExample", "KBRoundedButton/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/burczyk/KBRoundedButton.git", :tag => "1.0.1" }
+  s.source_files  = 'KBRoundedButton/*.{h,m}'
 
   s.frameworks = "UIKit", "CoreGraphics"
 
