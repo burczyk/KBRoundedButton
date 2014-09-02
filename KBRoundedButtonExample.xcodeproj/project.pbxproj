@@ -39,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		494C66C221D34C91A32411DA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		8EB6893519B5C4B100C221D0 /* KBRoundedButton.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = KBRoundedButton.podspec; sourceTree = SOURCE_ROOT; };
+		8EB6893619B5C4B100C221D0 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.md; sourceTree = SOURCE_ROOT; };
 		8ECA755819B4729A001CA4B1 /* KBRoundedButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBRoundedButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECA755B19B4729A001CA4B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8ECA755D19B4729A001CA4B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -142,6 +144,8 @@
 		8ECA756219B4729A001CA4B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8EB6893519B5C4B100C221D0 /* KBRoundedButton.podspec */,
+				8EB6893619B5C4B100C221D0 /* Readme.md */,
 				8ECA756319B4729A001CA4B1 /* KBRoundedButtonExample-Info.plist */,
 				8ECA756419B4729A001CA4B1 /* InfoPlist.strings */,
 				8ECA756719B4729A001CA4B1 /* main.m */,
