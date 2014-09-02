@@ -1,6 +1,6 @@
 //
 //  UIImage+Color.h
-//  Quicklii
+//  KBRoundedButton
 //
 //  Created by Kamil Burczyk on 23.07.2014.
 //  Copyright (c) 2014 Kamil Burczyk. All rights reserved.

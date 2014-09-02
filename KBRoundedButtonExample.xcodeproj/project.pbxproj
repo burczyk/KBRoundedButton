@@ -24,7 +24,6 @@
 		8ECA758A19B4729B001CA4B1 /* KBRoundedButtonExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA758919B4729B001CA4B1 /* KBRoundedButtonExampleTests.m */; };
 		8ECA759919B472B5001CA4B1 /* KBRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA759719B472B5001CA4B1 /* KBRoundedButton.m */; };
 		8ECA759C19B472E5001CA4B1 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA759B19B472E5001CA4B1 /* UIImage+Color.m */; };
-		8ECA759F19B4731E001CA4B1 /* UIButton+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA759E19B4731E001CA4B1 /* UIButton+Shadow.m */; };
 		C91DC7B93FB34C5F91C64517 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B02070D8974B99A45F8385 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -64,8 +63,6 @@
 		8ECA759719B472B5001CA4B1 /* KBRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBRoundedButton.m; sourceTree = "<group>"; };
 		8ECA759A19B472E5001CA4B1 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		8ECA759B19B472E5001CA4B1 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
-		8ECA759D19B4731E001CA4B1 /* UIButton+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Shadow.h"; sourceTree = "<group>"; };
-		8ECA759E19B4731E001CA4B1 /* UIButton+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Shadow.m"; sourceTree = "<group>"; };
 		D3B02070D8974B99A45F8385 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -174,8 +171,6 @@
 		8ECA759319B472B5001CA4B1 /* KBRoundedButton */ = {
 			isa = PBXGroup;
 			children = (
-				8ECA759D19B4731E001CA4B1 /* UIButton+Shadow.h */,
-				8ECA759E19B4731E001CA4B1 /* UIButton+Shadow.m */,
 				8ECA759A19B472E5001CA4B1 /* UIImage+Color.h */,
 				8ECA759B19B472E5001CA4B1 /* UIImage+Color.m */,
 				8ECA759619B472B5001CA4B1 /* KBRoundedButton.h */,
@@ -321,7 +316,6 @@
 				8ECA756C19B4729A001CA4B1 /* AppDelegate.m in Sources */,
 				8ECA759C19B472E5001CA4B1 /* UIImage+Color.m in Sources */,
 				8ECA759919B472B5001CA4B1 /* KBRoundedButton.m in Sources */,
-				8ECA759F19B4731E001CA4B1 /* UIButton+Shadow.m in Sources */,
 				8ECA756819B4729A001CA4B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

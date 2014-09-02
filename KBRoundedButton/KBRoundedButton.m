@@ -1,6 +1,6 @@
 //
 //  KBRoundedButton.m
-//  Quicklii
+//  KBRoundedButton
 //
 //  Created by Kamil Burczyk on 23.07.2014.
 //  Copyright (c) 2014 Sigmapoint. All rights reserved.
@@ -8,7 +8,6 @@
 
 #import "KBRoundedButton.h"
 #import "UIImage+Color.h"
-#import "UIButton+Shadow.h"
 
 @interface KBRoundedButton ()
 
@@ -29,6 +28,12 @@
 
 #pragma mark - Colors
 
+/**
+ *  Sets the colors for provided button states for both background colors and title colors.
+ *  Background color is implemented as 1x1 image of given color which is set as backgroundImage
+ *  of button. It has cornerRadius parameter set to half of button's height and clipsToBounds
+ *  property set to YES so it doesn't draw outside.
+ */
 - (void)initializeColorsAndCorners
 {
     if (_backgroundColorForStateNormal) [self setBackgroundImage:[UIImage imageWithColor:_backgroundColorForStateNormal andSize:CGSizeMake(1, 1)] forState:UIControlStateNormal];
@@ -50,6 +55,11 @@
 
 #pragma mark - Shadow
 
+/**
+ *  Adds bottom shadow as a subview of parent. Due to the fact that original button 
+ *  sets .clipsToBounds property to YES it's not possible to use standard .layer.shadow* properties.
+ *  New view simulating shadow is created and is inserted below button in view hierarchy.
+ */
 - (void)addBottomShadow
 {
     [self removeBottomShadow];
@@ -67,6 +77,9 @@
     [self.superview insertSubview:self.blackView belowSubview:self];
 }
 
+/**
+ *  Removes shadow if exists.
+ */
 - (void)removeBottomShadow
 {
     if (self.blackView) {
@@ -107,7 +120,6 @@
         [_activityIndicator stopAnimating];
         [self setTitle:_originalTitle forState:UIControlStateNormal];
     }
-//    [self setNeedsLayout];
 }
 
 @end
