@@ -122,4 +122,20 @@
     }
 }
 
+/**
+ *  Overridden method for hiding and restoring button with shadow.
+ *
+ *  @param hidden bool value
+ */
+- (void)setHidden:(BOOL)hidden {
+    [super setHidden:hidden];
+    if (_shadowEnabled) {
+        if (hidden) {
+            [self removeBottomShadow];
+        } else {
+            [self addBottomShadow];
+        }
+    }
+}
+
 @end

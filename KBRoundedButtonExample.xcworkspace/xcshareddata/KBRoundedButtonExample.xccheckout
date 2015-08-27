@@ -10,29 +10,29 @@
 	<string>KBRoundedButtonExample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6D956F79-AE79-4C07-9E16-C4DBD20E3F7E</key>
+		<key>18AE20AB5C411F684A2EF8525009838502025627</key>
 		<string>https://github.com/burczyk/KBRoundedButton.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>KBRoundedButtonExample.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6D956F79-AE79-4C07-9E16-C4DBD20E3F7E</key>
+		<key>18AE20AB5C411F684A2EF8525009838502025627</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/burczyk/KBRoundedButton.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6D956F79-AE79-4C07-9E16-C4DBD20E3F7E</string>
+	<string>18AE20AB5C411F684A2EF8525009838502025627</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6D956F79-AE79-4C07-9E16-C4DBD20E3F7E</string>
+			<string>18AE20AB5C411F684A2EF8525009838502025627</string>
 			<key>IDESourceControlWCCName</key>
 			<string>KBRoundedButtonExample</string>
 		</dict>

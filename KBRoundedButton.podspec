@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KBRoundedButton"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Create beautiful rounded rect button with dynamic colors and activity indicator completely in Interface Builder"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
 
-  s.source       = { :git => "https://github.com/burczyk/KBRoundedButton.git", :tag => "1.0.2" }
+  s.source       = { :git => "https://github.com/burczyk/KBRoundedButton.git", :tag => "1.0.3" }
   s.source_files  = 'KBRoundedButton/*.{h,m}'
 
   s.frameworks = "UIKit", "CoreGraphics"
