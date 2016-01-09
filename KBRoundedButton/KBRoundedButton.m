@@ -20,6 +20,40 @@
 
 @implementation KBRoundedButton
 
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        [self commonInit];
+    }
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self commonInit];
+    }
+    return self;
+}
+
+- (void)commonInit {
+    [self addObserver:self forKeyPath:@"center" options:NSKeyValueObservingOptionNew context:nil];
+}
+
+- (void)dealloc {
+    [self removeObserver:self forKeyPath:@"center"];
+}
+
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+    if([keyPath isEqualToString:@"center"])
+    {
+        if (_shadowEnabled) [self addBottomShadow];
+    }
+}
+
 - (void)drawRect:(CGRect)rect
 {
     [super drawRect:rect];
