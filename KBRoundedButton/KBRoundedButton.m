@@ -126,7 +126,7 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    if (_shadowEnabled) [self addBottomShadow];
+    if (_shadowEnabled && !self.hidden) [self addBottomShadow];
 }
 
 /**
